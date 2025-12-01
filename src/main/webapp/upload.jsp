@@ -5,68 +5,52 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Đăng tải Video - OE Studio</title>
+    <title>Tải video lên - OE Studio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <style>
-        body { background-color: #0f0f0f; color: white; }
-        .upload-zone { border: 2px dashed #444; border-radius: 10px; padding: 40px; text-align: center; cursor: pointer; background: #181818; transition: 0.3s; }
-        .upload-zone:hover { border-color: #3ea6ff; background: #202020; }
-        .form-control, .form-select { background-color: #121212; border: 1px solid #333; color: white; }
-        .form-control:focus { background-color: #121212; color: white; border-color: #3ea6ff; box-shadow: none; }
-    </style>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
-<nav class="navbar navbar-dark bg-dark border-bottom border-secondary mb-4">
-    <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="index">
-            <span class="text-danger fs-4">▶</span> OE Studio
-        </a>
-        <a href="index" class="btn btn-close btn-close-white"></a>
-    </div>
-</nav>
-
-<div class="container">
+<div class="container mt-5">
     <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <h3 class="fw-bold mb-4">Tải video lên</h3>
-
-            <c:if test="${not empty message}">
-                <div class="alert alert-info">${message}</div>
-            </c:if>
-
-            <form action="upload" method="post" enctype="multipart/form-data">
-
-                <div class="mb-4">
-                    <label class="form-label text-secondary fw-bold">1. Chọn Video từ máy tính (.mp4)</label>
-                    <input type="file" name="videoFile" class="form-control" accept="video/mp4" required>
+        <div class="col-md-8">
+            <div class="card bg-dark text-white border-secondary shadow-lg">
+                <div class="card-header border-secondary d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Tải video lên</h5>
+                    <a href="index" class="btn btn-close btn-close-white"></a>
                 </div>
+                <div class="card-body p-4">
+                    <c:if test="${not empty message}"><div class="alert alert-info">${message}</div></c:if>
 
-                <div class="mb-4">
-                    <label class="form-label text-secondary fw-bold">2. Chọn Ảnh bìa (.jpg, .png)</label>
-                    <input type="file" name="coverImage" class="form-control" accept="image/*" required>
-                </div>
+                    <form action="upload" method="post" enctype="multipart/form-data">
+                        <div class="mb-4 text-center p-5 border border-2 border-dashed border-secondary rounded" style="background: #181818;">
+                            <i class="fa-solid fa-cloud-arrow-up fs-1 mb-3 text-secondary"></i>
+                            <h5>Chọn tệp video để tải lên</h5>
+                            <input type="file" name="videoFile" class="form-control mt-3 bg-dark text-white border-secondary" accept="video/mp4" required>
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label text-secondary">Tiêu đề (Bắt buộc)</label>
-                    <input type="text" name="title" class="form-control" placeholder="Đặt tiêu đề cho video..." required>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Chọn ảnh thu nhỏ (Thumbnail)</label>
+                            <input type="file" name="coverImage" class="form-control bg-dark text-white border-secondary" accept="image/*" required>
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label text-secondary">Mô tả</label>
-                    <textarea name="description" class="form-control" rows="4" placeholder="Giới thiệu về video của bạn..."></textarea>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Tiêu đề (bắt buộc)</label>
+                            <input type="text" name="title" class="form-control bg-dark text-white border-secondary" placeholder="Thêm tiêu đề mô tả video của bạn" required>
+                        </div>
 
-                <div class="d-grid gap-2 mt-4">
-                    <button type="submit" class="btn btn-primary fw-bold py-2">
-                        <i class="fa-solid fa-cloud-arrow-up"></i> ĐĂNG TẢI NGAY
-                    </button>
+                        <div class="mb-3">
+                            <label class="form-label">Mô tả</label>
+                            <textarea name="description" class="form-control bg-dark text-white border-secondary" rows="4" placeholder="Giới thiệu về video của bạn"></textarea>
+                        </div>
+
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary fw-bold">TIẾP THEO</button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
-
 </body>
 </html>

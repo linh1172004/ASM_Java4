@@ -1,0 +1,125 @@
+/* style.css - Giao diện YouTube Dark Mode */
+body {
+    background-color: #0f0f0f; /* Màu nền đen */
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Thanh menu trên cùng */
+.navbar {
+    background-color: #0f0f0f !important;
+    border-bottom: 1px solid #333;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Thẻ Video (Card) */
+.video-card {
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.video-card:hover {
+    transform: scale(1.02); /* Phóng to nhẹ khi di chuột */
+    background-color: #272727 !important;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 12px;
+    width: 100%;
+    aspect-ratio: 16/9; /* Tỷ lệ khung hình chuẩn video */
+    object-fit: cover;
+}
+
+.video-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    color: white;
+    /* Cắt bớt nếu tên quá dài */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.video-meta {
+    font-size: 0.85rem;
+    color: #aaaaaa;
+}
+
+a { text-decoration: none; color: inherit; }
+
+/* Thêm vào cuối file style.css */
+
+/* Nút tròn trên Header (Tạo, Chuông, Avatar) */
+.btn-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.btn-icon:hover {
+    background-color: #272727;
+}
+
+/* Badge thông báo đỏ */
+.notification-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #cc0000;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0 5px;
+    border-radius: 10px;
+    border: 2px solid #0f0f0f;
+}
+
+/* Dropdown Menu tối màu chuẩn Youtube */
+.dropdown-menu-dark {
+    background-color: #282828;
+    border: 1px solid #3e3e3e;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.dropdown-item { color: #f1f1f1; padding: 10px 20px; }
+.dropdown-item:hover { background-color: #3e3e3e; color: white; }
+.dropdown-item i { width: 25px; text-align: center; margin-right: 10px; }
+
+/* Nút Đăng ký (Subscribe) */
+.btn-subscribe {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+}
+.btn-subscribe:hover { background-color: #d9d9d9; }
+
+.btn-subscribed {
+    background-color: #272727;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+}
+.btn-subscribed:hover { background-color: #3f3f3f; }

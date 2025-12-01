@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>OECinema</display-name>
+
+    <servlet><servlet-name>HomeServlet</servlet-name><servlet-class>com.poly.servlet.HomeServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>HomeServlet</servlet-name><url-pattern>/index</url-pattern><url-pattern>/home</url-pattern><url-pattern></url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>VideoDetailServlet</servlet-name><servlet-class>com.poly.servlet.VideoDetailServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>VideoDetailServlet</servlet-name><url-pattern>/video-detail</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>LoginServlet</servlet-name><servlet-class>com.poly.servlet.LoginServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>LoginServlet</servlet-name><url-pattern>/login</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>VideoManageServlet</servlet-name><servlet-class>com.poly.servlet.VideoManageServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>VideoManageServlet</servlet-name><url-pattern>/admin</url-pattern><url-pattern>/admin/videos</url-pattern><url-pattern>/admin/video/create</url-pattern><url-pattern>/admin/video/update</url-pattern><url-pattern>/admin/video/delete</url-pattern><url-pattern>/admin/video/edit</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>UploadServlet</servlet-name><servlet-class>com.poly.servlet.UploadServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>UploadServlet</servlet-name><url-pattern>/upload</url-pattern></servlet-mapping>
+
+    <welcome-file-list><welcome-file>index</welcome-file><welcome-file>index.jsp</welcome-file></welcome-file-list>
+    <servlet><servlet-name>SubscriptionServlet</servlet-name><servlet-class>com.poly.servlet.SubscriptionServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>SubscriptionServlet</servlet-name><url-pattern>/subscribe</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>LogoffServlet</servlet-name><servlet-class>com.poly.servlet.LogoffServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>LogoffServlet</servlet-name><url-pattern>/logoff</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>RegisterServlet</servlet-name><servlet-class>com.poly.servlet.RegisterServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>RegisterServlet</servlet-name><url-pattern>/register</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>FavoriteServlet</servlet-name><servlet-class>com.poly.servlet.FavoriteServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>FavoriteServlet</servlet-name><url-pattern>/favorite</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>ChannelServlet</servlet-name><servlet-class>com.poly.servlet.ChannelServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>ChannelServlet</servlet-name><url-pattern>/channel</url-pattern></servlet-mapping>
+
+    <servlet><servlet-name>SearchServlet</servlet-name><servlet-class>com.poly.servlet.SearchServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>SearchServlet</servlet-name><url-pattern>/search</url-pattern></servlet-mapping>
+</web-app>
