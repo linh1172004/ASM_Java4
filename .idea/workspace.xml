@@ -9,45 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afafc6ec-f34f-47fa-9bd3-daa797e1c88b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/dao/FavoriteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/dao/FavoriteDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/dao/SubscriptionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/dao/SubscriptionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/dao/VideoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/dao/VideoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/entity/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/entity/Favorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/entity/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/entity/Share.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/entity/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/entity/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/entity/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/ChannelServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/ChannelServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/FavoriteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/FavoriteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/LogoffServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/LogoffServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/SearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/SubscriptionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/SubscriptionServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/UploadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/VideoDetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/VideoDetailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/servlet/VideoManageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/servlet/VideoManageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/utils/JpaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/utils/JpaUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poly/utils/SendMailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poly/utils/SendMailUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/video-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/video-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/channel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/channel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/upload.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="afafc6ec-f34f-47fa-9bd3-daa797e1c88b" name="Changes" comment="asm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,6 +220,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="JSP" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="afafc6ec-f34f-47fa-9bd3-daa797e1c88b" name="Changes" comment="" />
@@ -273,10 +238,32 @@
       <workItem from="1764303326660" duration="48000" />
       <workItem from="1764348540844" duration="93000" />
       <workItem from="1764561638900" duration="2512000" />
+      <workItem from="1764595697633" duration="72000" />
     </task>
+    <task id="LOCAL-00001" summary="asm">
+      <option name="closed" value="true" />
+      <created>1764595727124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764595727124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="asm">
+      <option name="closed" value="true" />
+      <created>1764595738444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764595738444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asm" />
+    <option name="LAST_COMMIT_MESSAGE" value="asm" />
   </component>
 </project>
